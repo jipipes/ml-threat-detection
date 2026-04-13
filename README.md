@@ -57,6 +57,7 @@ kaggle datasets download -d mrwellsdavid/unsw-nb15 -p data/raw --unzip
 
 ## 프로젝트 구조
 
+```
 ml-threat-detection/
 ├── data/
 │   ├── raw/          # UNSW-NB15 원본 데이터
@@ -70,6 +71,7 @@ ml-threat-detection/
 ├── models/           # 학습된 모델 파일
 ├── Dockerfile
 └── requirements.txt
+```
 
 ## 실행 방법
 
